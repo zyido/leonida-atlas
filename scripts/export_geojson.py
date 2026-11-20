@@ -73,7 +73,6 @@ def main(argv=None):
     collection = {
         "type": "FeatureCollection",
         "name": "leonida-landmarks",
-        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG::0"}},
         "note": (
             "In-game map units, not latitude/longitude. Community reconstruction; "
             "positions are approximate."

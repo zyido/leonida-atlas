@@ -16,3 +16,14 @@ gaps are.
 | `scripts/audit.py` | Coverage table, plus every record missing a position or a region |
 | `scripts/region_totals.py` | Per-region totals; fails when they drift from the published ones |
 | `scripts/export_geojson.py` | Writes the positioned records as a FeatureCollection |
+
+## Links
+
+- Interactive map — https://zonepedia.com/gta-6/map
+- Locations index — https://zonepedia.com/gta-6/locations
+- About this project and its sources — https://zonepedia.com/about
+
+## Disclaimer
+
+Unofficial, fan-made dataset project. Not affiliated with any game publisher.
+All place names and any game assets belong to their respective owners.

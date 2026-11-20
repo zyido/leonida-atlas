@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T05:57:22.576Z",
+  "source": {
+    "cataloguePath": "/assets/street-leonida/maps/gtadb-landmarks-5c1d69f.json",
+    "revision": "5c1d69ff864623d181da5457afaacd00b623e1a4",
+    "upstreamSha256": "2209a4ff385815cad4d1f217248daaae3e29d029c34c137ce870eee1e8181083",
+    "snapshotSha256": "63427e845d449ed8c56574d5a901d955750977008b9799f75323733527f9cf40",
+    "license": "CC BY 4.0",
+    "attribution": "GTADB / Map GTA community reconstruction · preferred source https://map.gtadb.org · CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ · pinned revision 5c1d69ff864623d181da5457afaacd00b623e1a4 · transformed presentation · deterministic, pixel-aligned transform · community placement APPROXIMATE · approximate visualization scale · not an official Rockstar map"
+  },
+  "definitions": {
+    "totalCount": "GTADB landmark records only; excludes region entry points and personal data.",
+    "positionedCount": "Records with a finite in-game coordinate pair; positions remain approximate.",
+    "namedCount": "Records with a non-empty in-game address containing no question mark, matching atlas name evidence.",
+    "regionAssignment": "Final source address label, matched case-insensitively to atlas region names and explicit district/locality aliases. No coordinate-based assignment.",
+    "unassigned": "Records whose source label has no explicit atlas region mapping; includes missing labels."
+  },
+  "totals": {
+    "totalCount": 3431,
+    "positionedCount": 3340,
+    "namedCount": 948
+  },
+  "regions": [
+    {
+      "slug": "vice-city",
+      "name": "Vice City",
+      "totalCount": 2117,
+      "positionedCount": 2091,
+      "namedCount": 467,
+      "sourceLabels": [
+        "Bayside",
+        "Belville",
+        "Catalan Key",
+        "Crosstown",
+        "Dalton Island",
+        "Gloriana Key",
+        "Hamlet",
+        "Rialto Islands",
+        "Tequesta Retreat",
+        "Vice Beach",
+        "Vice CIty",
+        "Vice City",
+        "Vice City International Airport"
+      ]
+    },
+    {
+      "slug": "leonida-keys",
+      "name": "Leonida Keys",
+      "totalCount": 261,
+      "positionedCount": 256,
+      "namedCount": 37,
+      "sourceLabels": [
+        "Key Lento",
+        "Watson Bay"
+      ]
+    },
+    {
+      "slug": "grassrivers",
+      "name": "Grassrivers",
+      "totalCount": 2,
+      "positionedCount": 2,
+      "namedCount": 1,
+      "sourceLabels": [
+        "Grassrivers"
+      ]
+    },
+    {
+      "slug": "port-gellhorn",
+      "name": "Port Gellhorn",
+      "totalCount": 196,
+      "positionedCount": 194,
+      "namedCount": 69,
+      "sourceLabels": [
+        "Port Gellhorn"
+      ]
+    },
+    {
+      "slug": "ambrosia",
+      "name": "Ambrosia",
+      "totalCount": 96,
+      "positionedCount": 90,
+      "namedCount": 36,
+      "sourceLabels": [
+        "Ambrosia"
+      ]
+    },
+    {
+      "slug": "mount-kalaga-national-park",
+      "name": "Mount Kalaga",
+      "totalCount": 4,
+      "positionedCount": 0,
+      "namedCount": 2,
+      "sourceLabels": [
+        "Mount Kalaga National Park"
+      ]
+    }
+  ],
+  "unassigned": {
+    "totalCount": 755,
+    "positionedCount": 707,
+    "namedCount": 336,
+    "sourceLabels": [
+      {
+        "label": "Abismo Key",
+        "totalCount": 9,
+        "positionedCount": 9,
+        "namedCount": 1
+      },
+      {
+        "label": "Atlantic Ocean",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Balsero",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Belpoint",
+        "totalCount": 2,
+        "positionedCount": 2,
+        "namedCount": 0
+      },
+      {
+        "label": "Bluegrass",
+        "totalCount": 18,
+        "positionedCount": 18,
+        "namedCount": 1
+      },
+      {
+        "label": "Bobcat Key",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Buckskin",
+        "totalCount": 8,
+        "positionedCount": 8,
+        "namedCount": 3
+      },
+      {
+        "label": "Capri",
+        "totalCount": 74,
+        "positionedCount": 74,
+        "namedCount": 16
+      },
+      {
+        "label": "Catalan Bay",
+        "totalCount": 4,
+        "positionedCount": 4,
+        "namedCount": 0
+      },
+      {
+        "label": "Draper Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Emerald Springs",
+        "totalCount": 6,
+        "positionedCount": 6,
+        "namedCount": 2
+      },
+      {
+        "label": "Ferry Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Fisher Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Frampton Islands",
+        "totalCount": 4,
+        "positionedCount": 4,
+        "namedCount": 0
+      },
+      {
+        "label": "Gellhorn International Raceway",
+        "totalCount": 64,
+        "positionedCount": 64,
+        "namedCount": 58
+      },
+      {
+        "label": "Goose Key",
+        "totalCount": 3,
+        "positionedCount": 3,
+        "namedCount": 0
+      },
+      {
+        "label": "Gulf of Leonida",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Hyde Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Kelly County",
+        "totalCount": 79,
+        "positionedCount": 79,
+        "namedCount": 43
+      },
+      {
+        "label": "Key Largo",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "La Perle",
+        "totalCount": 5,
+        "positionedCount": 5,
+        "namedCount": 1
+      },
+      {
+        "label": "Leonard County",
+        "totalCount": 37,
+        "positionedCount": 37,
+        "namedCount": 12
+      },
+      {
+        "label": "Leonida",
+        "totalCount": 59,
+        "positionedCount": 21,
+        "namedCount": 49
+      },
+      {
+        "label": "Leonida Straits",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Little Cuba",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Little Hardin Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Lummox County",
+        "totalCount": 61,
+        "positionedCount": 61,
+        "namedCount": 35
+      },
+      {
+        "label": "Mariana County",
+        "totalCount": 98,
+        "positionedCount": 90,
+        "namedCount": 33
+      },
+      {
+        "label": "Maroon Key",
+        "totalCount": 5,
+        "positionedCount": 5,
+        "namedCount": 2
+      },
+      {
+        "label": "Millport",
+        "totalCount": 9,
+        "positionedCount": 9,
+        "namedCount": 6
+      },
+      {
+        "label": "North Beaches",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Peacock Bay",
+        "totalCount": 4,
+        "positionedCount": 4,
+        "namedCount": 0
+      },
+      {
+        "label": "Peregrine Bay",
+        "totalCount": 16,
+        "positionedCount": 16,
+        "namedCount": 9
+      },
+      {
+        "label": "Port Gellhorn International Raceway",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 1
+      },
+      {
+        "label": "Port Vice City",
+        "totalCount": 33,
+        "positionedCount": 33,
+        "namedCount": 11
+      },
+      {
+        "label": "Redhill",
+        "totalCount": 3,
+        "positionedCount": 2,
+        "namedCount": 3
+      },
+      {
+        "label": "Salton Vice City",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Southwind",
+        "totalCount": 3,
+        "positionedCount": 3,
+        "namedCount": 0
+      },
+      {
+        "label": "Stafish Island",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Starfish Island",
+        "totalCount": 10,
+        "positionedCount": 10,
+        "namedCount": 1
+      },
+      {
+        "label": "Sundown",
+        "totalCount": 1,
+        "positionedCount": 1,
+        "namedCount": 0
+      },
+      {
+        "label": "Tequesta",
+        "totalCount": 2,
+        "positionedCount": 2,
+        "namedCount": 2
+      },
+      {
+        "label": "Vice-Dale County",
+        "totalCount": 51,
+        "positionedCount": 51,
+        "namedCount": 25
+      },
+      {
+        "label": "Waning Sands",
+        "totalCount": 65,
+        "positionedCount": 64,
+        "namedCount": 14
+      },
+      {
+        "label": "Yorktown",
+        "totalCount": 6,
+        "positionedCount": 6,
+        "namedCount": 1
+      }
+    ]
+  }
+}
